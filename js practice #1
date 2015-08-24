@@ -1,0 +1,80 @@
+<html>
+<title>James' Javascript Practice Session</title>
+<body>
+<h2>check this out</h2>
+<script type="text/javascript">
+	document.write("<br />-------<br />")
+	var x = 5;
+	var y = 3;
+	var tx = "math is hard";
+	
+	document.write(tx+"<br />")
+	document.write("For example: " + x + " + " + y + " = ")
+	document.write(x+y)
+	document.write("<br />")
+	if (x>y) 
+		{
+		document.write(x + " is larger than " + y)
+		}	
+</script>
+
+<script type="text/javascript">
+//  If/else
+	document.write("<br />-------<br />")
+	var d=new Date();
+	var time = d.getHours();
+	
+	if (time<=11)
+		{
+		document.write("<b>Good Morning</b>");
+		}
+	else if(time>11 && time<17)
+		{
+		document.write("<i>Good Afternoon!</i>");
+		}
+	else
+		{
+		document.write("Good evening.");
+		}
+
+	
+</script>
+
+
+<script type="text/javascript">
+//switches  (aka case statements)
+	document.write("<br />-------<br />")
+	var d=new Date();
+	var theDay=d.getDay();
+	switch(theDay)
+		{
+		case 0:
+			document.write("Sunday, Bloody Sunday");
+			break;
+		case 1:
+			document.write("Monday Sucks, doesn't it?");
+			break;
+		case 2:
+			document.write("Prince Tuesday");
+			break;
+		case 3:
+			document.write("Hump Day");
+			break;
+		case 4:
+			document.write("Thor's Day");
+			break;
+		case 5:
+			document.write("IT'S FRIDAY!!");
+			break;
+		case 6:
+			document.write("Today is Saturday.  Would you like some pancakes?");
+			break;
+		}
+
+</script>
+
+
+
+
+</body>
+</html>
